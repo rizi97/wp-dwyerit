@@ -1,0 +1,47 @@
+/*!
+Theme Name: dwyerit
+Theme URI: http://dwyerit.com/
+Author: Muhammad Rizwan Aslam
+Author URI: https://www.linkedin.com/in/muhammad-rizwan-aslam/
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: dwyerit
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+
+/* for testimonials */
+.page-id-254 .section {
+    margin: 100px 0;
+}
+.page-id-254 .bg.home-testimonials {
+    min-height: 115%;
+}
+
+
+.section-5.plans-comparison {
+    padding-bottom: 90px;
+}
+
+
+
+.footer-nav {
+	column-count: 2;
+    column-gap: 100px;
+}
+
+.features-navigation-button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.features-navigation-buttons-wrapper.custom-width a {
+    max-width: 40%;
+}
+.features-navigation-buttons-wrapper.custom-width .small-svg-icons {
+    width: 50px;
+}
